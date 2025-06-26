@@ -1,0 +1,22 @@
+# LET'S CREATE A CLASS:
+# A CLASS IS A TEMPLATE BY USING WHICH WE CAN CREATE MULTIPLE OBJECTS.
+# HERE INSTEAD OF USING ONLY SELF I AM DEFINING DIFFERENT VARIABLES.
+# WHICH I AM GOING TO USE AS POSITIONAL ARGUMENTS TO CREATE OBJECTS.
+
+class Pirate:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def say(self):
+        return self.name
+
+
+e1 = Pirate("jack", 35)
+
+print(e1.say())
+
+
+# LET'S CREATE OBJECT BY USING A CLASS:
+# WE HAVE TO PROVIDE VARIABLE VALUES AS POSITIONAL ARGUMENTS TO CREATE A CLASS.
+
